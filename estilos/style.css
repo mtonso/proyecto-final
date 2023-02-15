@@ -106,6 +106,7 @@
   padding: 30px 0px;
   font-size: 48px;
   font-family: 'Indie Flower', cursive;
+  color: darkred;
 }
 
 .row img {
@@ -113,6 +114,10 @@
   height: 400px;
 }
 
+.row video {
+  width: 400px;
+  height: 400px;
+}
 
 
 
