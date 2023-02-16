@@ -178,4 +178,18 @@
   .header-accesorios__nav a {
     padding: 0px 20px;
   }
+
+  .main-accesorios__subtitulo {
+    font-size: 24px;
+  }
+
+  .row img {
+  width: 250px;
+  height: 350px;
+}
+
+.row video {
+  width: 250px;
+  height: 350px;
+}
 }
