@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-/* PAGINA DE ENTRADA */
+/***************** PAGINA DE ENTRADA  *****************/
 .body-entrada {
   background-color: whitesmoke;
 }
@@ -54,7 +54,7 @@ footer img {
   height: 30px;
 }
 
-/* PAGINA DE INICIO */
+/***************** PAGINA DE INICIO *****************/
 
 .logo {
   display: block;
@@ -79,7 +79,7 @@ footer img {
 }
 
 
-/* PAGINA DE ACCESORIOS */
+/***************** PAGINA DE ACCESORIOS *****************/
 
 .header-accesorios {
   display: flex;
@@ -126,7 +126,7 @@ footer img {
   height: 400px;
 }
 
-/* PAGINA DE ROPA */
+/***************** PAGINA DE ROPA *****************/
 
 
 .header-ropa {
@@ -171,7 +171,7 @@ footer img {
   font-size: 24px;
 }
 
-/* PAGINA DE TIENDA */
+/***************** PAGINA DE TIENDA *****************/
 
 .header-tienda {
   display: flex;
@@ -205,18 +205,10 @@ body main #tienda {
   padding-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
-
+/***************** MOBILE *****************/
 
 @media (max-width:576px) {
-  /* PAGINA MOBILE DE ENTRADA */
+  /***************** PAGINA MOBILE DE ENTRADA *****************/
   .main-entrada__a {
     margin-top: 30px;
   }
@@ -235,7 +227,7 @@ body main #tienda {
     margin: 30px;
   }
 
-  /* PAGINA MOBILE DE INICIO */
+  /***************** PAGINA MOBILE DE INICIO *****************/
   .logo {
     width: 250px;
     height: 150px;
@@ -248,7 +240,7 @@ body main #tienda {
     height: 250px;
   }
 
-  /* PAGINA MOBILE DE ACCESORIOS */
+  /***************** PAGINA MOBILE DE ACCESORIOS *****************/
   .header-accesorios {
     font-size: 18px;
     padding: 5px 0px;
@@ -286,7 +278,7 @@ body main #tienda {
 
 
 
-/* PAGINA DE ROPA MOBILE */
+/***************** PAGINA DE ROPA MOBILE *****************/
 
 
 .header-ropa img {
@@ -313,7 +305,7 @@ body main #tienda {
   font-size: 16px;
 }
 
-/* PAGINA MOBILE DE TIENDA */
+/***************** PAGINA MOBILE DE TIENDA *****************/
 
 .header-tienda img {
   height: 100px;
