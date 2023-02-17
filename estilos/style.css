@@ -41,10 +41,17 @@
 }
 
 .footer {
+  display: flex;
+  justify-content: space-around;
   font-size: 14px;
   text-align: center;
   margin: 5px;
   padding-top: 10px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
 }
 
 /* PAGINA DE INICIO */
@@ -164,6 +171,50 @@
   font-size: 24px;
 }
 
+/* PAGINA DE TIENDA */
+
+.header-tienda {
+  display: flex;
+  justify-content: center;
+}
+
+.header-tienda img {
+  height: 200px;
+  width: 350px;
+}
+
+body main #tienda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#tienda div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+#tienda p {
+  font-size: 24px;
+}
+
+#tienda img {
+  width: 300px;
+  height: 400px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:576px) {
   /* PAGINA MOBILE DE ENTRADA */
   .main-entrada__a {
@@ -233,16 +284,7 @@
   height: 250px;
 }
 
-/* PAGINA DE ROPA MOBILE */
 
-.header-ropa img {
-  height: 100px;
-  width: 200px;
-}
-
-.header-ropa a {
-  font-size: 18px;
-}
 
 /* PAGINA DE ROPA MOBILE */
 
@@ -269,5 +311,29 @@
 
 .ropa-conteiner__hijo p {
   font-size: 16px;
+}
+
+/* PAGINA MOBILE DE TIENDA */
+
+.header-tienda img {
+  height: 100px;
+  width: 200px;
+}
+
+body main #tienda {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#tienda div {
+  margin-bottom: 30px;
+}
+
+#tienda p {
+  font-size: 18px;
+}
+
+#tienda img {
+  width: 200px;
+  height: 300px;
 }
 }
