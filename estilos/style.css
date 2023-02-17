@@ -134,7 +134,8 @@
 }
 
 .header-ropa a {
-  font-size: 28px;
+  font-size: 38px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .header-ropa__nav a {
@@ -252,7 +253,7 @@
 }
 
 .header-ropa a {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .ropa-conteiner {
