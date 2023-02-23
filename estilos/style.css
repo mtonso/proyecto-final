@@ -174,19 +174,11 @@ footer img {
 
 /***************** PAGINA DE TIENDA *****************/
 
-.header-tienda {
-  display: flex;
-  justify-content: center;
-}
-
-.header-tienda img {
-  height: 200px;
-  width: 350px;
-}
 
 body main #tienda {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
 }
 
 #tienda div {
