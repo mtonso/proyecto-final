@@ -157,14 +157,12 @@ footer img {
 .ropa-conteiner {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-top: 50px;
+  margin-top: 80px;
   text-align: center;
 }
 
 .ropa-conteiner__hijo img {
-  width: 20vw;
-  height: 350px;
+  height: 300px;
   border: 1px solid black;
 }
 
