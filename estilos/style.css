@@ -20,7 +20,7 @@
   font-family: 'Aboreto', cursive;
   margin-top: 20px;
   text-decoration: none;
-  transform: translateX(120px);
+  transform: translateX(80px);
   color: black;
   transition: 1s;
 }
@@ -63,68 +63,71 @@ footer img {
   height: 200px;
 }
 
-.main-inicio {
-  height: 70vh;
-}
 
 .main-inicio img {
   width: 24%;
-  height: 350px;
+  height: 400px;
   transition: .5s;
+  object-fit: contain;
 }
 
 .main-inicio img:hover {
-  height: 380px;
+  background-color: whitesmoke;
   transition: .5s;
 }
 
 
 /***************** PAGINA DE ACCESORIOS *****************/
 
-.header-accesorios {
+.header-ropa {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-  font-family: 'Indie Flower', cursive;
-  font-size: 50px;
-  padding: 30px;
-  background-color: whitesmoke;
 }
 
-.header-accesorios__logo {
-  width: 150px;
-  height: 75px;
-  transition: .5s;
+.header-ropa img {
+  height: 200px;
+  width: 400px;
 }
 
-.header-accesorios__logo:hover {
-  width: 160px;
-  height: 80px;
-  transition: .5s;
+.header-ropa a {
+  font-size: 38px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
-.header-accesorios__nav a {
-  padding: 0px 30px;
+.header-ropa__nav a {
   color: black;
   text-decoration: none;
+  padding: 0px 20px;
 }
 
 .main-accesorios__subtitulo {
   padding: 30px 0px;
+  text-align: center;
   font-size: 48px;
   font-family: 'Indie Flower', cursive;
   color: darkred;
 }
 
-.row img {
-  width: 400px;
-  height: 400px;
-}
 
-.row video {
-  width: 400px;
-  height: 400px;
-}
+.main-accesorios__conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .main-accesorios__conteiner img {
+    width: 300px;
+    height: 500px;
+  }
+
+  .main-accesorios__conteiner video {
+    width: 300px;
+    height: 500px;
+  }
+
 
 /***************** PAGINA DE ROPA *****************/
 
@@ -210,16 +213,12 @@ body main #tienda {
 @media (max-width:576px) {
   /***************** PAGINA MOBILE DE ENTRADA *****************/
   .main-entrada__a {
-    margin-top: 30px;
-  }
-  
-  .main-entrada__a:hover {
-    margin-top: 30px;
+  transform: translateX(40px);
   }
   
   .main-entrada__img {
-    width: 400px;
-    height: 450px;
+    width: 80%;
+    height: 70%;
   }
   
   .footer {
@@ -232,63 +231,61 @@ body main #tienda {
     width: 250px;
     height: 150px;
   }
+
+  .main-inicio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .main-inicio img {
     width: 45%;
-    height: 250px;
-  }
-  .main-inicio img:hover {
-    height: 250px;
+    height: 50%;
   }
 
   /***************** PAGINA MOBILE DE ACCESORIOS *****************/
-  .header-accesorios {
+
+  
+  .header-ropa img {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .header-ropa a {
     font-size: 18px;
-    padding: 5px 0px;
   }
-
-  .header-accesorios__logo {
-    width: 80px;
-    height: 45px;
-    transition: .5s;
-  }
-
-  .header-accesorios__logo:hover {
-    width: 85px;
-    height: 50px;
-    transition: .5s;
-  }
-
-  .header-accesorios__nav a {
-    padding: 0px 20px;
+  
+  .header-ropa__nav {
+    text-align: center;
   }
 
   .main-accesorios__subtitulo {
     font-size: 24px;
   }
 
-  .row img {
-  width: 150px;
-  height: 250px;
-}
+  .main-accesorios__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 10px;
+  }
 
-.row video {
-  width: 150px;
-  height: 250px;
-}
+  .main-accesorios__conteiner img {
+    width: 70%;
+    height: 400px;
+  }
+
+  .main-accesorios__conteiner video {
+    width: 70%;
+    height: 400px;
+  }
 
 
 
 /***************** PAGINA DE ROPA MOBILE *****************/
 
 
-.header-ropa img {
-  height: 150px;
-  width: 250px;
-}
 
-.header-ropa a {
-  font-size: 22px;
-}
 
 .ropa-conteiner {
   display: grid;
