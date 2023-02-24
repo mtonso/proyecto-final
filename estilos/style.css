@@ -154,19 +154,19 @@ footer img {
   padding: 0px 20px;
 }
 
-.ropa-conteiner {
+.ropa-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 80px;
   text-align: center;
 }
 
-.ropa-conteiner__hijo img {
+.ropa-container__hijo img {
   height: 300px;
   border: 1px solid black;
 }
 
-.ropa-conteiner__hijo p {
+.ropa-container__hijo p {
   text-align: center;
   margin: 20px 0px;
   font-size: 24px;
@@ -280,14 +280,14 @@ body main #tienda {
   }
 
   .main-accesorios__conteiner img {
-    width: 70%;
-    height: 400px;
+    width: 40%;
+    height: 300px;
     border: 1px solid black;
   }
 
   .main-accesorios__conteiner video {
-    width: 70%;
-    height: 400px;
+    width: 40%;
+    height: 300px;
     object-fit: cover;
     border: 1px solid black;
   }
@@ -299,18 +299,18 @@ body main #tienda {
 
 
 
-.ropa-conteiner {
+.ropa-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
 }
 
-.ropa-conteiner__hijo img {
+.ropa-container__hijo img {
   width: 70%;
   height: 200px;
 }
 
-.ropa-conteiner__hijo p {
+.ropa-container__hijo p {
   font-size: 12px;
 }
 
