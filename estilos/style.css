@@ -168,6 +168,32 @@ body main #tienda {
   margin-top: 80px;
 }
 
+.moda-sostenible {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+.img-sostenible {
+  width: 300px;
+  height: 300px;
+  padding: 40px;
+}
+
+.moda-sostenible__titulo {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  color: darkred;
+}
+
+.moda-sostenible__parrafo {
+  font-size: 28px;
+  padding: 30px;
+}
+
 .tienda-img {
   display: flex;
   align-items: center;
@@ -198,6 +224,9 @@ body main #tienda {
 .boton:hover {
   background: lightgrey;
 }
+
+
+
 
 /***************** MOBILE *****************/
 
@@ -273,12 +302,7 @@ body main #tienda {
     margin-left: 40px;
   }
 
-
-
 /***************** PAGINA DE ROPA MOBILE *****************/
-
-
-
 
 .ropa-container {
   display: grid;
@@ -300,6 +324,29 @@ body main #tienda {
 .header-tienda img {
   height: 100px;
   width: 200px;
+}
+
+.moda-sostenible {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 30px 20px;
+}
+
+.img-sostenible {
+  align-self: center;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.moda-sostenible__titulo {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.moda-sostenible__parrafo {
+  font-size: 12px;
+  padding: 10px;
 }
 
 body main #tienda {
