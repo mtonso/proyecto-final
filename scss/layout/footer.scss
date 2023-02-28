@@ -1,13 +1,13 @@
 /* DESKTOP */
 
-.footer {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   text-align: center;
   margin: 5px;
-      img {
+      .img-footer {
           width: 30px;
           height: 30px;
           margin-right: 10px;
@@ -18,7 +18,7 @@
 /* MOBILE */
 
 @media (max-width:576px) {
-  .footer {
+  footer {
     font-size: 14px;
     margin: 5px 10px;
     flex-direction: column;
