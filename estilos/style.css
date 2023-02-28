@@ -151,6 +151,7 @@ footer img {
 
 .ropa-container__hijo img {
   height: 300px;
+  width: 220px;
   border: 1px solid black;
 }
 
@@ -176,8 +177,7 @@ body main #tienda {
 }
 
 .img-sostenible {
-  width: 300px;
-  height: 300px;
+  max-width: 250px;
   padding: 40px;
 }
 
@@ -292,31 +292,36 @@ body main #tienda {
     width: 80%;
     height: 300px;
     margin-top: 25px;
-    margin-left: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .row video {
     width: 80%;
     height: 300px;
     margin-top: 25px;
-    margin-left: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 /***************** PAGINA DE ROPA MOBILE *****************/
 
 .ropa-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1px;
 }
 
 .ropa-container__hijo img {
   width: 70%;
-  height: 200px;
+  height: 350px;
+  object-fit: cover;
 }
 
 .ropa-container__hijo p {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 /***************** PAGINA MOBILE DE TIENDA *****************/
@@ -327,6 +332,7 @@ body main #tienda {
 }
 
 .moda-sostenible {
+  flex-direction: column;
   border: 1px solid black;
   border-radius: 20px;
   margin: 30px 20px;
@@ -335,7 +341,7 @@ body main #tienda {
 .img-sostenible {
   align-self: center;
   width: 100px;
-  height: 100px;
+  height: 150px;
   padding: 20px;
 }
 
@@ -345,12 +351,13 @@ body main #tienda {
 }
 
 .moda-sostenible__parrafo {
-  font-size: 12px;
+  font-size: 16px;
   padding: 10px;
+  text-align: center;
 }
 
 body main #tienda {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .tienda-img {
@@ -362,7 +369,6 @@ body main #tienda {
 }
 
 #tienda img {
-  width: 150px;
-  height: 250px;
+  max-width: 250px;
 }
 }
