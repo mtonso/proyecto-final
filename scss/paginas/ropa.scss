@@ -1,0 +1,39 @@
+/* DESKTOP */
+.ropa-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 80px;
+  text-align: center;
+}
+
+.ropa-container__hijo img {
+  height: 300px;
+  width: 220px;
+  border: 1px solid black;
+}
+
+.ropa-container__hijo p {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 24px;
+}
+
+
+/* MOBILE */
+@media (max-width:576px) {
+  .ropa-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+  }
+  
+  .ropa-container__hijo img {
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .ropa-container__hijo p {
+    font-size: 18px;
+  }
+}

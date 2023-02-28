@@ -1,0 +1,29 @@
+/* DESKTOP */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  margin: 5px;
+      img {
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+  }
+}
+
+
+/* MOBILE */
+
+@media (max-width:576px) {
+  .footer {
+    font-size: 14px;
+    margin: 5px 10px;
+    flex-direction: column;
+      p {
+        margin-bottom: 10px;
+      }
+  }
+}

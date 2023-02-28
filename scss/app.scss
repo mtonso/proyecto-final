@@ -3,9 +3,14 @@
   margin: 0;
 }
 
+/* PAGINAS */
 @import "./paginas/index.scss";
 @import "./paginas/inicio.scss";
 @import "./paginas/accesorios.scss";
 @import "./paginas/ropa.scss";
 @import "./paginas/taller.scss";
 @import "./paginas/tienda.scss";
+
+/* LAYPUT */
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
