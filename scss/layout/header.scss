@@ -1,35 +1,37 @@
 /* DESKTOP */
 
 .header-principal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-      img {
-          height: 200px;
-          width: 400px;
-  }
+      .container-fluid {
+        flex-direction: column;
+      }
       a {
-          font-size: 38px;
+          font-size: 30px;
           font-family: 'Rajdhani', sans-serif;
           color: black;
           text-decoration: none;
           padding: 0px 20px;
   }
+      .header-img {
+          max-width: 300px;
+  }
 }
+
+
 
 
 /* MOBILE */
 
 @media (max-width:576px) {
-  .header-principal img {
-    height: 100px;
-    width: 200px;
-  }  
-  
-  .header-principal__nav {
-    text-align: center;
-    a {
-      font-size: 12px;
+  .header-principal {
+
+    .container-fluid {
+      flex-direction: row;
+    }
+        a {
+            font-size: 18px;
+    }
+        .header-img {
+            max-width: 100px;
     }
   }
 }
