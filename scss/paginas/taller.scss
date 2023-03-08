@@ -1,5 +1,30 @@
 /* DESKTOP */
 
+.accesorio-sostenible {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  margin: 30px;
+      img {
+        max-width: 250px;
+        padding: 40px;
+      }
+}
+
+.accesorio-sostenible__titulo {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  color: darkred;
+}
+
+.accesorio-sostenible__parrafo {
+  font-size: 26px;
+  padding: 10px;
+}
+
 .taller-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -17,6 +42,30 @@
 
 /* MOBILE */
 @media (max-width:576px) {
+  .accesorio-sostenible {
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 30px 20px;
+          img {
+            align-self: center;
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+          }
+  }
+    
+  .accesorio-sostenible__titulo {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .accesorio-sostenible__parrafo {
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
 .taller-container {
   grid-template-columns: repeat(1, 1fr);
       img {
