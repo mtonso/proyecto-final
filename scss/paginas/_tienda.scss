@@ -1,0 +1,102 @@
+/* DESKTOP */
+
+.moda-sostenible {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  max-width: 1200px;
+  margin: 0 auto;
+      img {
+        max-width: 250px;
+        padding: 40px;
+        object-fit: contain;
+      }
+}
+
+.moda-sostenible__titulo {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  color: darkred;
+}
+
+.moda-sostenible__parrafo {
+  font-size: 26px;
+  padding: 30px;
+}
+
+body main #tienda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+      img {
+          width: 300px;
+          height: 400px;
+          padding-bottom: 30px;
+      }
+}
+
+.tienda-img {
+  display: flex;
+  object-fit: contain;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.boton {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+      &:hover {
+              background: lightgrey;
+      }
+}
+
+
+/* MOBILE */
+@media (max-width:576px) {
+  .moda-sostenible {
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 30px 20px;
+          img {
+            align-self: center;
+            width: 200px;
+            height: 300px;
+            padding: 20px;
+          }
+  }
+    
+  .moda-sostenible__titulo {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .moda-sostenible__parrafo {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+body main #tienda {
+  grid-template-columns: repeat(1, 1fr);
+      a {
+        font-size: 14px;
+      }
+      img {
+        max-width: 250px;
+      }
+}
+
+.tienda-img {
+  margin-bottom: 30px;
+}
+}

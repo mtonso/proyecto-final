@@ -1,0 +1,41 @@
+/* DESKTOP */
+.logo {
+  display: block;
+  margin: auto;
+  width: 350px;
+  height: 200px;
+}
+
+.main-inicio img {
+  width: 24%;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 40px;
+      &:hover {
+        border: 2px solid black;
+        border-radius: 100px;
+      }
+}
+
+/* MOBILE */
+
+@media (max-width:576px) {
+.logo {
+  width: 200px;
+  height: 120px;
+}
+
+.main-inicio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+      img {
+        width: 70%;
+        height: 50%;
+              &:hover {
+                border: 1px solid black;
+                border-radius: 50px;
+              }
+      }
+}
+}
