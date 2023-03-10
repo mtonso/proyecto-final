@@ -226,7 +226,7 @@ body main #tienda {
     text-align: center;
     margin: 20px 30px; }
   body main #tienda .precio {
-    color: darkred;
+    color: black;
     font-size: 24px; }
   body main #tienda .instagram {
     display: block;
