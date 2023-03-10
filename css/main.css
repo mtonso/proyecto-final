@@ -222,24 +222,18 @@ body main #tienda {
     width: 300px;
     height: 400px;
     padding-bottom: 30px; }
-
-.tienda-img {
-  display: flex;
-  object-fit: contain;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 50px; }
-
-.boton {
-  font-size: 20px;
-  padding: 5px 10px;
-  border: 2px solid black;
-  border-radius: 20px;
-  text-decoration: none;
-  color: black;
-  background: transparent; }
-  .boton:hover {
-    background: lightgrey; }
+  body main #tienda .tienda-prueba {
+    text-align: center;
+    margin: 20px 30px; }
+  body main #tienda .precio {
+    color: darkred;
+    font-size: 24px; }
+  body main #tienda .instagram {
+    display: block;
+    background-color: darkred;
+    text-decoration: none;
+    color: white;
+    font-size: 18px; }
 
 /* MOBILE */
 @media (max-width: 576px) {
@@ -262,12 +256,12 @@ body main #tienda {
     text-align: center; }
   body main #tienda {
     grid-template-columns: repeat(1, 1fr); }
-    body main #tienda a {
-      font-size: 14px; }
+    body main #tienda .instagram {
+      font-size: 15px; }
     body main #tienda img {
       max-width: 250px; }
-  .tienda-img {
-    margin-bottom: 30px; } }
+    body main #tienda .precio {
+      font-size: 20px; } }
 
 /* LAYOUT */
 /* DESKTOP */
