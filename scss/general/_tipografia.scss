@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao&display=swap');
+
+$tipografia-parrafo: "Aboreto";
+$tipografia-titulo: "Noto+Serif+Lao";
+
+a, p, li {
+  font-family: $tipografia-parrafo;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $tipografia-titulo;
+}
